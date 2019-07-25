@@ -1,5 +1,0 @@
-com/microsoft/azure/cassandra/coupon/model/CouponKey.class
-com/microsoft/azure/cassandra/coupon/model/Coupon.class
-com/microsoft/azure/cassandra/coupon/Application.class
-com/microsoft/azure/cassandra/coupon/repository/CouponRepository.class
-com/microsoft/azure/cassandra/coupon/controller/CouponController.class
