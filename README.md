@@ -1,4 +1,4 @@
-# Java Spring boot reference sample to show usage of CosmosDB Cassandra counters using spring-boot-starter-data-cassandra
+## Java Spring boot reference sample to show usage of CosmosDB Cassandra counters using spring-boot-starter-data-cassandra
 
 ## Steps to run the App
 git clone https://github.com/jyotsnaravikumar/azure-springboot-cosmosdb-cassandra-counter.git </br>  
