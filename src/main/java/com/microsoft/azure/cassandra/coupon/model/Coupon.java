@@ -5,11 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.cassandra.core.mapping.*;
-
-import java.util.UUID;
-
 import static com.datastax.driver.core.DataType.Name.COUNTER;
 import static org.springframework.data.cassandra.core.cql.PrimaryKeyType.PARTITIONED;
 
@@ -30,8 +26,6 @@ public class Coupon {
 
     @PrimaryKeyColumn(name = "user")
     private String user;
-
-    //@PrimaryKey private CouponKey key;
 
     @CassandraType(type=COUNTER)
     private Long usage;
