@@ -6,11 +6,11 @@ cd azure-springboot-cosmosdb-cassandra-counter </br>
 mvn clean install  </br>  
 mvn clean spring-boot:run  </br>  
 
-## Test
+## Steps to test
 ###GET 
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:8080/coupons </br>  
 
-###PUT new record
+###POST new record
 curl -X POST -H "Content-Type: application/json" -d '{"name" : "microsoft01","user" : "jr01"}' http://localhost:8080/coupons </br>  
-###PUT counter record
+###POST counter record
 curl -X POST -H "Content-Type: application/json" -d '{"id": "ec514720-ae7f-11e9-9caf-1bd76ed297da","name" : "microsoft3","user" : "jr3"}' http://localhost:8080/coupons </br>  
