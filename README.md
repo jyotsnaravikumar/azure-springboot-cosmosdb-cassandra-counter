@@ -7,10 +7,10 @@ mvn clean install  </br>
 mvn clean spring-boot:run  </br>  
 
 ## Steps to test
-### GET </br>  
+### GET all records </br>  
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:8080/coupons </br>  
 
 ## POST new record  </br>  
-curl -X POST -H "Content-Type: application/json" -d '{"name" : "microsoft01","user" : "jr01"}' http://localhost:8080/coupons </br>  
+curl -X POST -H "Content-Type: application/json" -d '{"name" : "microsoft3","user" : "jr3"}' http://localhost:8080/coupons </br>  
 ## POST counter record  </br>  
 curl -X POST -H "Content-Type: application/json" -d '{"id": "ec514720-ae7f-11e9-9caf-1bd76ed297da","name" : "microsoft3","user" : "jr3"}' http://localhost:8080/coupons </br>  
